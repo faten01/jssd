@@ -1,7 +1,7 @@
 <?php
 include 'connexion.php';
 
-if(isset($_POST['submit'])){
+if(isset ($_POST['submit'])){
     $jour = $_POST['jour'];
     $seance = $_POST['seance'];
     $salle = $_POST['salle'];
